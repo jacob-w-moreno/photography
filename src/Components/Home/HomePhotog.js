@@ -6,11 +6,9 @@ import Columns from './Columns';
 const Home = (props) => {
   return (<div className='home'>
     <Intro
-      primary='NEED A PHOTOGRAPHER?'
-      description="WE'VE GOT YOU COVERED."
-      link1='/'
-      secondary="ARE YOU A PHOTOGRAPHER?"
-      link2='/photographer'/>
+      primary="LET'S GET YOU FOUND"
+      description="CREATE AN ACCOUNT."
+      link1="create account"/>
     <Columns/>
   </div>)
 }

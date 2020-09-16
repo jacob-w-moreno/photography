@@ -9,9 +9,12 @@
 }
 .column{
   @include dim(400px,400px);
+  border-radius: 14px;
   img {
-    @include dim(200px, 200px);
+    @include dim(200px, 100%);
+    border-radius: 8px;
     background-size: cover;
+    margin-bottom: 15px;
   }
   display: flex;
   flex-direction: column;

@@ -1,13 +1,14 @@
 import React from 'react';
-import Home from './Components/Home/Home';
+import {withRouter} from 'react-router-dom';
 import './Components/style.scss';
+import routes from '../src/routes';
 
 function App() {
   return (
     <div className="App">
-      <Home/>
+      {routes}
     </div>
   );
 }
 
-export default App;
+export default withRouter(App);
