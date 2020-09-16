@@ -1,0 +1,9 @@
+.intro {
+  @include dim(500px, 100%);
+  background: #660000;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

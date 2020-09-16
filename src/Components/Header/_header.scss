@@ -1,0 +1,17 @@
+.header {
+  @include dim(60px, 100%);
+  background: rgb(61, 61, 61);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 20px;
+  header {
+    font-size: 25px;
+    font-weight: bold;
+  }
+}
+.header__icon{
+  @include dim(40px, 40px);
+  border: 2px solid white;
+}
